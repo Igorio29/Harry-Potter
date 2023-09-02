@@ -7,7 +7,7 @@ body{
 
 @font-face {
     font-family: Harry-Potter;
-    src: url(/ProjetoWeb/src/css/fontes/HARRYP__.TTF);
+    src: url(./fontes/HARRYP__.TTF);
 }
 
 .titulo-principal {
