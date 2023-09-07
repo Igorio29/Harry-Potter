@@ -1,0 +1,51 @@
+body {
+    background-image: url(./telas-de-fundo/teladefundo3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+
+input{
+    margin-right: 16rem;
+}
+
+.textogrande{
+    padding-right: 20rem;
+    padding-bottom: 5rem;
+}
+
+footer {
+    background-color: #6e6e6e;
+    margin-top: 55px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer img {
+    width: 10%;
+}
+
+.fut {
+    background: #6e6e6e;
+    background-size: 100%;
+}
+
+.loguinho {
+    cursor:auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+    input {
+        margin-right: 5rem;
+    }
+
+    .textogrande {
+        padding-right: 5rem;
+    }
+}

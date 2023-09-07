@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/css/style3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark justify-content-center bg-dark">
+            <a href="welcome.html" class="btn btn-dark link-hover">HOME</a>
+            <a href="filmes.html" class="btn btn-dark link-hover">FILMES</a>
+            <a href="contato.html" class="btn btn-dark link-hover">CONTATO</a>
+        </nav>
+    </header>
+    <main class="">
+        <form class="col-6 mx-auto mt-5" >
+            <div class="form-group">
+                <label for="InputNome">
+                    <p class="text-light">Nome</p>
+                    <input type="text" name="InputNome" class="form-control" id="InputNome" placeholder="Nome">
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="email">
+                    <p class="text-light">Email</p>
+                    <input type="email" placeholder="Email" class="form-control" name="email" id="email">
+                    <small class="form-text text-muted" id="emailHelp">ex:seuemail.seudominio.com</small>
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="numero">
+                    <p class="text-light">Numero</p>
+                    <input type="number" placeholder="Número (opcional)" class="form-control" id="numero">
+                    <small class="form-text text-muted" id="NumeroHelp">ex: +55 (41) 99999-9999</small>
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="assunto">
+                    <p class="text-light">Assunto</p>
+                    <input type="text" placeholder="Assunto" class="form-control" id="assunto">
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">
+                    <p class="text-light">Mensagem</p>
+                    <textarea class="textogrande" placeholder="Digite sua mensagem"></textarea>
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn btn-dark">
+            </div>
+        </form>
+    </main>
+    <div class="fut">
+        <footer>
+            <a href="https://login-78e86.web.app" class="loguinho">
+                <img src="./src/img/IJ29.png" alt="">
+            </a>
+            <p> &copy; Igor Jose Farias Copyright</p>
+        </footer>
+    </div>
+</body>
+
+</html>
