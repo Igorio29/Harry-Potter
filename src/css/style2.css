@@ -100,6 +100,27 @@ li{
     list-style: circle;
 }
 
+.botao-cima {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+.botao-cima img {
+        width: 100px; /* ajuste o tamanho da imagem conforme necessário */
+        height: auto;
+        cursor: pointer;
+        border-radius: 100%;
+        transition: 0.2s;
+}
+
+.botao-cima img:hover {
+    transform:rotateZ(45deg);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 @media only screen and (max-width: 768px) {
     .titulo-principal {
         font-size: 4rem;
